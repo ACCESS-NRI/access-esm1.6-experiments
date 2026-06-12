@@ -164,5 +164,5 @@ userscripts:
 
 postscript: -v PAYU_CURRENT_OUTPUT_DIR,PROJECT  -lstorage=${PBS_NCI_STORAGE} 
   ./scripts/NetCDF-conversion/UM_conversion_job.sh
-project: p66
+project: xh94
 shortpath: /scratch/p66/
