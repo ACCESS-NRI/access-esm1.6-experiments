@@ -10,22 +10,22 @@ notes: |-
     (3) Follow the guidelines for acknowledging ACCESS-NRI (https://www.access-nri.org.au/resources/acknowledging-us/) and also acknowledge the ongoing science developments led by CSIRO, by including a statement such as:
         "This research used the ACCESS-ESM1.6 model infrastructure provided by ACCESS-NRI, which is enabled by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS). Science development of ACCESS-ESM1.6 was led by CSIRO with support from the Australian Government's National Environmental Science Program Climate Systems Hub."
 keywords:
-  - global
-  - access-esm1.6
+- global
+- access-esm1.6
 realm:
-  - atmos
-  - land
-  - ocean
-  - ocnBgchem
-  - seaIce
+- atmos
+- land
+- ocean
+- ocnBgchem
+- seaIce
 nominal_resolution: 100 km
 reference: https://doi.org/10.5281/zenodo.17490072
 license: CC-BY-4.0
 model: ACCESS-ESM1.6
 version: '1.1'
 url: https://github.com/accESS-NRI/access-esm1.6-configs/
-experiment_uuid: 135fafe6-5457-4300-a3d9-56138a932b99
-name: esm-historical-esm-historical-1.1-r1i1p1f1-135fafe6
+experiment_uuid: 61805c51-205e-4473-a0d4-e567ab12f8f9
+name: esm-historical-esm-historical-1.1-r20i1p1f1-61805c51
 schema_version: 1-0-3
 long_description: __REPLACE_ME__  # Long description of the experiment (string)
 # frequency: The frequency(/ies) included in the experiment (array of strings)
@@ -33,4 +33,7 @@ long_description: __REPLACE_ME__  # Long description of the experiment (string)
 # parent_experiment: experiment_uuid for parent experiment if appropriate (string)
 # related_experiments: experiment_uuids for any related experiment(s) (array of strings)
 parent_experiment: cfcbc3a9-6f5a-4fa5-b963-24bd050e546b
-jobname: esm-historical
+jobname: esm-historical  # 
+# frequency: The frequency(/ies) included in the experiment (array of strings)
+# variable: The variable(s) included in the experiment (array of strings)
+# related_experiments: experiment_uuids for any related experiment(s) (array of strings)
