@@ -154,7 +154,7 @@ payu_minimum_version: 1.3.0
 sync:
   enable: true    # set path below and change to true
   restarts: true
-  base_path: /g/data/p73/archive/CMIP7/ACCESS-ESM1-6/production/ensemble--esm-historical/09/ # Set to location on /g/data (e.g., /g/data/$PROJECT/$USER/)
+  base_path: /g/data/p73/archive/CMIP7/ACCESS-ESM1-6/production/ensemble-esm-historical/esm-historical-esm-historical-1.1-r9i1p1f1-faeb0bae/ 
 
 # If a postscript included (such as the automated netcdf conversion), the latest output and restart files will not
 # be automatically synced at the end of a run. To sync the latest output after a postscript has completed,
