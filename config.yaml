@@ -13,6 +13,11 @@ project: p66
 # Force payu to always find, and save, files in this scratch project directory
 shortpath: /scratch/p66/
 
+#fudge for rsynch to work
+storage:
+  gdata:
+    - p73
+
 # Note: if laboratory is relative path, it is relative to shortpath/$USER
 laboratory: access-esm
 jobname: 12-esm-historical
@@ -154,7 +159,7 @@ payu_minimum_version: 1.3.0
 sync:
   enable: true    # set path below and change to true
   restarts: true
-  base_path: /g/data/p73/archive/CMIP7/ACCESS-ESM1-6/production/ensemble-esm-historical/esm-historical-esm-historical-1.1-r12i1p1f1-090a952e/ 
+  base_path: /g/data/p73/archive/CMIP7/ACCESS-ESM1-6/production/ensemble-esm-historical/
 
 # If a postscript included (such as the automated netcdf conversion), the latest output and restart files will not
 # be automatically synced at the end of a run. To sync the latest output after a postscript has completed,
