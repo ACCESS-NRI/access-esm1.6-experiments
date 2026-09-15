@@ -1,1 +1,1 @@
-See [main branch README](https://github.com/ACCESS-NRI/access-esm1.6-configs/) for usage information.
+See [main branch README](https://github.com/ACCESS-NRI/access-esm1.6-experiments)
