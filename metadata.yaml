@@ -1,36 +1,37 @@
-contact: Srbinovsky, Jhan (O&A, Aspendale)
-email: Jhan.Srbinovsky@csiro.au
-created: '2026-04-07'
+contact: Add your name here
+email: Add your email address here
+created: Add the date you started the experiment here (YYYY-MM-DD)
 description: |-
-  ACCESS-ESM1.5 global coupled model configuration running in co2 concentration driven mode under pre-industrial forcings, as described in Ziehn et al. (2020), https://doi.org/10.1071/ES19035.
-  Pre-industrial forcing data including atmospheric co2 concentrations are primarily sourced from UKMO versions of CMIP6 inputs, with additional atmospheric forcings sourced from CMIP5 and land cover data adapted from Lawrence et al. (2012), https://doi.org/10.1175/JCLI-D-11-00256.1.
+  ACCESS-ESM1.6 global coupled model configuration running in CO2 concentration driven mode with abruptly halved atmospheric CO2 concentrations compared to the pre-industrial level and preindustrial values for all other forcings. Pre-industrial forcing data including atmospheric CO2 concentrations are primarily sourced from the input4MIPs CMIP7 datasets. See https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Experiment_set_up_and_Forcings/abrupt-2xco2/ for a description of the experimental protocol.
+long_description: |-
+  ACCESS-ESM1.6 global coupled model configuration running in CO2 concentration driven mode with abruptly halved atmospheric CO2 concentrations compared to the pre-industrial level and preindustrial values for all other forcings. Pre-industrial forcing data including atmospheric CO2 concentrations are primarily sourced from the input4MIPs CMIP7 datasets. See https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Experiment_set_up_and_Forcings/abrupt-2xco2/ for a description of the experimental protocol.
+name: abrupt-05xCO2-r1i1p1f1-2026.10.19
 notes: |-
-  The developers of ACCESS-ESM1.5 request that users of these model configurations:
-   (a) Cite https://doi.org/10.1071/ES19035
-   (b) Include an acknowledgment such as the following:
-   "The authors thank CSIRO for developing the ACCESS-ESM1.5 model configuration and making it freely available to researchers."
-   ACCESS-NRI requests users follow the guidelines for acknowledging ACCESS-NRI and include a statement such as:
-   "This research used the ACCESS-ESM1.5 model infrastructure provided by ACCESS-NRI, which is enabled by the Australian Government's National Collaborative Research Infrastructure Strategy (NCRIS)."
+  The developers of ACCESS-ESM1.6 request that users of these model configurations:
+    (1) Have a Met Office Science Repository Service (MOSRS) account as described on ACCESS-Hive Docs (https://docs.access-hive.org.au/models/run_a_model/run_access-esm/#prerequisites).
+    (2) Currently please cite https://doi.org/10.5281/zenodo.17490072. A model description paper for ACCESS-ESM1.6 is in preparation.
+    (3) Follow the guidelines for acknowledging ACCESS-NRI (https://www.access-nri.org.au/resources/acknowledging-us/) and also acknowledge the ongoing science developments led by CSIRO, by including a statement such as:
+        "This research used the ACCESS-ESM1.6 model infrastructure provided by ACCESS-NRI, which is enabled by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS). Science development of ACCESS-ESM1.6 was led by CSIRO with support from the Australian Government's National Environmental Science Program Climate Systems Hub."
 keywords:
-- global
-- access-esm1.6
+  - global
+  - access-esm1.6
 realm:
-- atmos
-- land
-- ocean
-- ocnBgchem
-- seaIce
+  - atmos
+  - land
+  - ocean
+  - ocnBgchem
+  - seaIce
+frequency:
+  - fx
+  - 1yr
+  - 1mon
+  - 1day
+  - 6hr
+  - 3hr
+  - 1hr
 nominal_resolution: 100 km
-reference: https://doi.org/10.1071/ES19035
+reference: https://doi.org/10.5281/zenodo.17490072
 license: CC-BY-4.0
 model: ACCESS-ESM1.6
-version: '1.1'
-url: https://github.com/ACCESS-NRI/access-esm1.6-configs
-experiment_uuid: e523e199-80f6-4ca6-b84a-e513a16f2029
-name: Ndep2-PI-CNP-concentrations-Ndep2-PI-CNP-concentrations-e523e199
-schema_version:  # The version of the schema (string)
-long_description: # Long description of the experiment (string)
-frequency: # The frequency(/ies) included in the experiment (string)
-variable: # The variable(s) included in the experiment (string)
-parent_experiment: # experiment_uuid for parent experiment if appropriate (string)
-related_experiments: # experiment_uuids for any related experiment(s) (string)
+url: https://github.com/ACCESS-NRI/access-esm1.6-experiments
+version: "2.0"
